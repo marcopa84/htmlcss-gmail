@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- nell'header metto intestzione, immagine e casella di ricerca -->
+    <header>
+      <div class="logo_title_row">
+      <img id="logo" src="img/google-gmail-logo-icon-24576.png" alt="Logo di Google Gmail">
+      <h1 id="title">Gmail</h1>
+      </div>
+      <hr id="separation">
+      <div class="search">
+      <input type="text" name="search" placeholder="Search" value="">
+      <button type="button" name="button">&nbsp;VAI&nbsp;</button>
+      </div>
+    </header>
+    <!-- nel main metto la lista delle mails -->
+    <main>
+      <div class="emails">
+        <h2>You have <span id="num_unread_emails">30</span> unread</h2>
+      </div>
+      <hr id="separation">
+      <section id="visual_mail_box">
+        <div class="visual_mail">
+          <span id="visual_mail_row"><input type="checkbox" name=""></span>
+          <span id="visual_mail_row">&starf;</span>
+          <span id="visual_mail_row"><strong>Oggetto della email</strong></span>
+          <span id="visual_mail_text">- il testo della email...</span>
+        </div>
+        <div class="visual_mail read">
+          <span id="visual_mail_row"><input type="checkbox" name=""></span>
+          <span id="visual_mail_row">&starf;</span>
+          <span id="visual_mail_row"><strong>Oggetto della email</strong></span>
+          <span id="visual_mail_text">- il testo della email...</span>
+        </div>
+        <div class="visual_mail">
+          <span id="visual_mail_row"><input type="checkbox" name=""></span>
+          <span id="visual_mail_row">&starf;</span>
+          <span id="visual_mail_row"><strong>Oggetto della email</strong></span>
+          <span id="visual_mail_text">- il testo della email...</span>
+        </div>
+        <div class="visual_mail">
+          <span id="visual_mail_row"><input type="checkbox" name=""></span>
+          <span id="visual_mail_row">&starf;</span>
+          <span id="visual_mail_row"><strong>Oggetto della email</strong></span>
+          <span id="visual_mail_text">- il testo della email...</span>
+        </div>
+      </section>
+
+    </main>
+    <!-- nel footer metto la chiusura  -->
+    <footer>
+      <hr id="separation">
+      <h2>GMail</h2><span> powered by Marco</span>
+    </footer>
+
+  </body>
+</html>
